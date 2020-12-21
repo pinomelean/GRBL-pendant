@@ -12,8 +12,8 @@ void setup(){
   pinMode(joystickButton,INPUT);
   Mouse.begin();
   //Set starting position as 0,0
-  xoff=analogRead(xAxis)-512;
-  yoff=analogRead(yAxis)-512;
+  xoff=analogRead(xAxis)-511;
+  yoff=analogRead(yAxis)-511;
 }
 
 void loop(){

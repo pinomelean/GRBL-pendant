@@ -32,15 +32,15 @@
 #include "Mouse.h"
 
 // set pin numbers for switch, joystick axes, and LED:
-const int switchPin = 2;      // switch to turn on and off mouse control
+const int switchPin = 18;      // switch to turn on and off mouse control
 const int mouseButton = 3;    // input pin for the mouse pushButton
 const int xAxis = A0;         // joystick X axis
 const int yAxis = A1;         // joystick Y axis
-const int ledPin = 5;         // Mouse control LED
+const int ledPin = 6;         // Mouse control LED
 
 // parameters for reading the joystick:
 int range = 20;               // output range of X or Y movement
-int responseDelay = 10;        // response delay of the mouse, in ms
+int responseDelay = 5;        // response delay of the mouse, in ms
 int threshold = range / 20;    // resting threshold
 int center = range / 2;       // resting position value
 
@@ -48,7 +48,7 @@ bool mouseIsActive = false;    // whether or not to control the mouse
 int lastSwitchState = LOW;        // previous switch state
 
 void setup() {
-  pinMode(switchPin, INPUT);       // the switch pin
+  pinMode(switchPin, INPUT_PULLUP);       // the switch pin
   pinMode(ledPin, OUTPUT);         // the LED pin
   // take control of the mouse:
   Mouse.begin();
