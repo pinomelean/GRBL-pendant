@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J3
-U 1 1 5FE0E689
-P 8300 4150
-F 0 "J3" H 8350 4467 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 8350 4376 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 8300 4150 50  0001 C CNN
-F 3 "~" H 8300 4150 50  0001 C CNN
-	1    8300 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x20 J2
 U 1 1 5FE26F26
 P 9150 3450
@@ -36,36 +25,24 @@ F 3 "~" H 9150 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
+	8100 3950 7800 3950
+Wire Wire Line
 	8100 4050 7800 4050
 Wire Wire Line
-	8100 4150 7800 4150
-Wire Wire Line
-	8100 4250 7800 4250
-Wire Wire Line
-	8100 4350 7800 4350
+	8600 3950 8900 3950
 Wire Wire Line
 	8600 4050 8900 4050
-Wire Wire Line
-	8600 4150 8900 4150
-Wire Wire Line
-	8600 4250 8900 4250
-Wire Wire Line
-	8600 4350 8900 4350
-Text Label 7850 4050 0    50   ~ 0
+Text Label 7800 3750 0    50   ~ 0
 32
-Text Label 7850 4150 0    50   ~ 0
+Text Label 7800 3850 0    50   ~ 0
 33
-Text Label 7850 4250 0    50   ~ 0
+Text Label 7800 3950 0    50   ~ 0
 34
-Text Label 7850 4350 0    50   ~ 0
+Text Label 7800 4050 0    50   ~ 0
 35
-Text Label 8750 4050 0    50   ~ 0
-28
-Text Label 8750 4150 0    50   ~ 0
-29
-Text Label 8750 4250 0    50   ~ 0
+Text Label 8750 3950 0    50   ~ 0
 30
-Text Label 8750 4350 0    50   ~ 0
+Text Label 8750 4050 0    50   ~ 0
 31
 Wire Wire Line
 	9350 4350 9650 4350
@@ -107,43 +84,43 @@ Wire Wire Line
 	9350 2550 9650 2550
 Wire Wire Line
 	9350 2450 9650 2450
-Text Label 7150 4350 0    50   ~ 0
+Text Label 7050 4350 0    50   ~ 0
 17
-Text Label 7150 4250 0    50   ~ 0
+Text Label 7050 4250 0    50   ~ 0
 16
-Text Label 7150 4150 0    50   ~ 0
+Text Label 7050 4150 0    50   ~ 0
 15
-Text Label 7150 4050 0    50   ~ 0
+Text Label 7050 4050 0    50   ~ 0
 14
-Text Label 7150 3950 0    50   ~ 0
+Text Label 7050 3950 0    50   ~ 0
 13
-Text Label 7150 3850 0    50   ~ 0
+Text Label 7050 3850 0    50   ~ 0
 12
-Text Label 7150 3750 0    50   ~ 0
+Text Label 7050 3750 0    50   ~ 0
 11
-Text Label 7150 3650 0    50   ~ 0
+Text Label 7050 3650 0    50   ~ 0
 10
-Text Label 7150 3550 0    50   ~ 0
+Text Label 7050 3550 0    50   ~ 0
 9
-Text Label 7150 3450 0    50   ~ 0
+Text Label 7050 3450 0    50   ~ 0
 8
-Text Label 7150 3350 0    50   ~ 0
+Text Label 7050 3350 0    50   ~ 0
 7
-Text Label 7150 3250 0    50   ~ 0
+Text Label 7050 3250 0    50   ~ 0
 6
-Text Label 7150 3150 0    50   ~ 0
+Text Label 7050 3150 0    50   ~ 0
 5
-Text Label 7150 3050 0    50   ~ 0
+Text Label 7050 3050 0    50   ~ 0
 4
-Text Label 7150 2950 0    50   ~ 0
+Text Label 7050 2950 0    50   ~ 0
 3
-Text Label 7150 2850 0    50   ~ 0
+Text Label 7050 2850 0    50   ~ 0
 2
-Text Label 7150 2750 0    50   ~ 0
+Text Label 7050 2750 0    50   ~ 0
 1
-Text Label 7150 2650 0    50   ~ 0
+Text Label 7050 2650 0    50   ~ 0
 0
-Text Label 7100 2450 0    50   ~ 0
+Text Label 7200 2450 0    50   ~ 0
 GND
 Wire Wire Line
 	7350 2550 7050 2550
@@ -196,66 +173,66 @@ F 3 "~" H 7550 3350 50  0001 C CNN
 	1    7550 3350
 	1    0    0    -1  
 $EndComp
-Text Label 7150 2550 0    50   ~ 0
+Text Label 7050 2550 0    50   ~ 0
 27
 Text Label 9450 2450 0    50   ~ 0
 +5V
-Text Label 9500 2550 0    50   ~ 0
+Text Label 9550 2550 0    50   ~ 0
 26
-Text Label 9500 2650 0    50   ~ 0
+Text Label 9550 2650 0    50   ~ 0
 25
-Text Label 9500 2750 0    50   ~ 0
+Text Label 9550 2750 0    50   ~ 0
 24
-Text Label 9500 2850 0    50   ~ 0
+Text Label 9550 2850 0    50   ~ 0
 23
-Text Label 9500 2950 0    50   ~ 0
+Text Label 9550 2950 0    50   ~ 0
 22
-Text Label 9500 3050 0    50   ~ 0
+Text Label 9550 3050 0    50   ~ 0
 21
-Text Label 9500 3150 0    50   ~ 0
+Text Label 9550 3150 0    50   ~ 0
 20
-Text Label 9500 3250 0    50   ~ 0
+Text Label 9550 3250 0    50   ~ 0
 19
-Text Label 9500 3350 0    50   ~ 0
+Text Label 9550 3350 0    50   ~ 0
 18
 Text Label 9450 3450 0    50   ~ 0
 GND
 Text Label 9450 3550 0    50   ~ 0
 REF
-Text Label 9500 3650 0    50   ~ 0
+Text Label 9550 3650 0    50   ~ 0
 38
-Text Label 9500 3750 0    50   ~ 0
+Text Label 9550 3750 0    50   ~ 0
 39
-Text Label 9500 3850 0    50   ~ 0
+Text Label 9550 3850 0    50   ~ 0
 40
-Text Label 9500 3950 0    50   ~ 0
+Text Label 9550 3950 0    50   ~ 0
 41
-Text Label 9500 4050 0    50   ~ 0
+Text Label 9550 4050 0    50   ~ 0
 42
-Text Label 9500 4150 0    50   ~ 0
+Text Label 9550 4150 0    50   ~ 0
 43
-Text Label 9500 4250 0    50   ~ 0
+Text Label 9550 4250 0    50   ~ 0
 44
-Text Label 9500 4350 0    50   ~ 0
+Text Label 9550 4350 0    50   ~ 0
 45
 $Comp
-L Device:Rotary_Encoder_Switch SW_FEED1
+L Device:Rotary_Encoder_Switch EN_FEED1
 U 1 1 5FE234AF
 P 2750 5250
-F 0 "SW_FEED1" V 2796 5020 50  0000 R CNN
+F 0 "EN_FEED1" V 2796 5020 50  0000 R CNN
 F 1 "Rotary_Encoder_Switch" V 2705 5020 50  0000 R CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm" H 2600 5410 50  0001 C CNN
+F 2 "Encoder:PEC11R-4x15K" H 2600 5410 50  0001 C CNN
 F 3 "~" H 2750 5510 50  0001 C CNN
 	1    2750 5250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch SW_SPINDLE1
+L Device:Rotary_Encoder_Switch EN_SPINDLE1
 U 1 1 5FE255DF
 P 3750 5250
-F 0 "SW_SPINDLE1" V 3796 5020 50  0000 R CNN
+F 0 "EN_SPINDLE1" V 3796 5020 50  0000 R CNN
 F 1 "Rotary_Encoder_Switch" V 3705 5020 50  0000 R CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm" H 3600 5410 50  0001 C CNN
+F 2 "Encoder:PEC11R-4x15K" H 3600 5410 50  0001 C CNN
 F 3 "~" H 3750 5510 50  0001 C CNN
 	1    3750 5250
 	0    -1   -1   0   
@@ -296,19 +273,8 @@ $EndComp
 $Comp
 L Switch:SW_Push SW_$H1
 U 1 1 5FE305C2
-P 2250 1750
-F 0 "SW_$H1" H 2250 2035 50  0000 C CNN
-F 1 "SW_Push" H 2250 1944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2250 1950 50  0001 C CNN
-F 3 "~" H 2250 1950 50  0001 C CNN
-	1    2250 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_L-CLICK1
-U 1 1 5FE325A4
 P 4250 1750
-F 0 "SW_L-CLICK1" H 4250 2035 50  0000 C CNN
+F 0 "SW_$H1" H 4250 2035 50  0000 C CNN
 F 1 "SW_Push" H 4250 1944 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 4250 1950 50  0001 C CNN
 F 3 "~" H 4250 1950 50  0001 C CNN
@@ -316,25 +282,36 @@ F 3 "~" H 4250 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L Switch:SW_Push SW_L-CLICK1
+U 1 1 5FE325A4
+P 2250 1750
+F 0 "SW_L-CLICK1" H 2250 2035 50  0000 C CNN
+F 1 "SW_Push" H 2250 1944 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2250 1950 50  0001 C CNN
+F 3 "~" H 2250 1950 50  0001 C CNN
+	1    2250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
 L Switch:SW_Push SW_$X1
 U 1 1 5FE3454D
-P 2250 2250
-F 0 "SW_$X1" H 2250 2535 50  0000 C CNN
-F 1 "SW_Push" H 2250 2444 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2250 2450 50  0001 C CNN
-F 3 "~" H 2250 2450 50  0001 C CNN
-	1    2250 2250
+P 4250 2250
+F 0 "SW_$X1" H 4250 2535 50  0000 C CNN
+F 1 "SW_Push" H 4250 2444 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 4250 2450 50  0001 C CNN
+F 3 "~" H 4250 2450 50  0001 C CNN
+	1    4250 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_R-CLICK1
 U 1 1 5FE36680
-P 4250 2250
-F 0 "SW_R-CLICK1" H 4250 2535 50  0000 C CNN
-F 1 "SW_Push" H 4250 2444 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 4250 2450 50  0001 C CNN
-F 3 "~" H 4250 2450 50  0001 C CNN
-	1    4250 2250
+P 2250 2250
+F 0 "SW_R-CLICK1" H 2250 2535 50  0000 C CNN
+F 1 "SW_Push" H 2250 2444 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2250 2450 50  0001 C CNN
+F 3 "~" H 2250 2450 50  0001 C CNN
+	1    2250 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -384,19 +361,8 @@ $EndComp
 $Comp
 L Switch:SW_Push SW_MACRO-3
 U 1 1 5FE7059F
-P 5300 6250
-F 0 "SW_MACRO-3" H 5300 6535 50  0000 C CNN
-F 1 "SW_Push" H 5300 6444 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 5300 6450 50  0001 C CNN
-F 3 "~" H 5300 6450 50  0001 C CNN
-	1    5300 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_MACRO-2
-U 1 1 5FE72482
 P 1250 7250
-F 0 "SW_MACRO-2" H 1250 7535 50  0000 C CNN
+F 0 "SW_MACRO-3" H 1250 7535 50  0000 C CNN
 F 1 "SW_Push" H 1250 7444 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 1250 7450 50  0001 C CNN
 F 3 "~" H 1250 7450 50  0001 C CNN
@@ -404,14 +370,25 @@ F 3 "~" H 1250 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L Switch:SW_Push SW_MACRO-2
+U 1 1 5FE72482
+P 5250 6250
+F 0 "SW_MACRO-2" H 5250 6535 50  0000 C CNN
+F 1 "SW_Push" H 5250 6444 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 5250 6450 50  0001 C CNN
+F 3 "~" H 5250 6450 50  0001 C CNN
+	1    5250 6250
+	1    0    0    -1  
+$EndComp
+$Comp
 L Switch:SW_Push SW_MACRO-4
 U 1 1 5FE7456A
-P 5300 7250
-F 0 "SW_MACRO-4" H 5300 7535 50  0000 C CNN
-F 1 "SW_Push" H 5300 7444 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 5300 7450 50  0001 C CNN
-F 3 "~" H 5300 7450 50  0001 C CNN
-	1    5300 7250
+P 5250 7250
+F 0 "SW_MACRO-4" H 5250 7535 50  0000 C CNN
+F 1 "SW_Push" H 5250 7444 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 5250 7450 50  0001 C CNN
+F 3 "~" H 5250 7450 50  0001 C CNN
+	1    5250 7250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -494,40 +471,40 @@ $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5FE96302
-P 9650 3550
-F 0 "#PWR0103" H 9650 3300 50  0001 C CNN
-F 1 "GND" V 9655 3422 50  0000 R CNN
-F 2 "" H 9650 3550 50  0001 C CNN
-F 3 "" H 9650 3550 50  0001 C CNN
-	1    9650 3550
+P 9650 3450
+F 0 "#PWR0103" H 9650 3200 50  0001 C CNN
+F 1 "GND" V 9655 3322 50  0000 R CNN
+F 2 "" H 9650 3450 50  0001 C CNN
+F 3 "" H 9650 3450 50  0001 C CNN
+	1    9650 3450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5VA #PWR0104
 U 1 1 5FE98144
-P 9650 3450
-F 0 "#PWR0104" H 9650 3300 50  0001 C CNN
-F 1 "+5VA" V 9665 3578 50  0000 L CNN
-F 2 "" H 9650 3450 50  0001 C CNN
-F 3 "" H 9650 3450 50  0001 C CNN
-	1    9650 3450
+P 9650 3550
+F 0 "#PWR0104" H 9650 3400 50  0001 C CNN
+F 1 "+5VA" V 9665 3678 50  0000 L CNN
+F 2 "" H 9650 3550 50  0001 C CNN
+F 3 "" H 9650 3550 50  0001 C CNN
+	1    9650 3550
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 5FEB002A
-P 950 7350
-F 0 "#PWR0105" H 950 7100 50  0001 C CNN
-F 1 "GND" V 955 7222 50  0000 R CNN
-F 2 "" H 950 7350 50  0001 C CNN
-F 3 "" H 950 7350 50  0001 C CNN
-	1    950  7350
+P 4950 6350
+F 0 "#PWR0105" H 4950 6100 50  0001 C CNN
+F 1 "GND" V 4955 6222 50  0000 R CNN
+F 2 "" H 4950 6350 50  0001 C CNN
+F 3 "" H 4950 6350 50  0001 C CNN
+	1    4950 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 7250 950  7250
+	5050 6250 4950 6250
 Wire Wire Line
-	950  7250 950  7350
+	4950 6250 4950 6350
 $Comp
 L power:GND #PWR0106
 U 1 1 5FEB714E
@@ -546,18 +523,18 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0107
 U 1 1 5FEB9370
-P 5000 7350
-F 0 "#PWR0107" H 5000 7100 50  0001 C CNN
-F 1 "GND" V 5005 7222 50  0000 R CNN
-F 2 "" H 5000 7350 50  0001 C CNN
-F 3 "" H 5000 7350 50  0001 C CNN
-	1    5000 7350
+P 4950 7350
+F 0 "#PWR0107" H 4950 7100 50  0001 C CNN
+F 1 "GND" V 4955 7222 50  0000 R CNN
+F 2 "" H 4950 7350 50  0001 C CNN
+F 3 "" H 4950 7350 50  0001 C CNN
+	1    4950 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 7250 5000 7250
+	5050 7250 4950 7250
 Wire Wire Line
-	5000 7250 5000 7350
+	4950 7250 4950 7350
 $Comp
 L power:GND #PWR0108
 U 1 1 5FEBB65A
@@ -636,18 +613,18 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0113
 U 1 1 5FEC78E1
-P 5000 6350
-F 0 "#PWR0113" H 5000 6100 50  0001 C CNN
-F 1 "GND" V 5005 6222 50  0000 R CNN
-F 2 "" H 5000 6350 50  0001 C CNN
-F 3 "" H 5000 6350 50  0001 C CNN
-	1    5000 6350
+P 950 7350
+F 0 "#PWR0113" H 950 7100 50  0001 C CNN
+F 1 "GND" V 955 7222 50  0000 R CNN
+F 2 "" H 950 7350 50  0001 C CNN
+F 3 "" H 950 7350 50  0001 C CNN
+	1    950  7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 6250 5000 6250
+	1050 7250 950  7250
 Wire Wire Line
-	5000 6250 5000 6350
+	950  7250 950  7350
 $Comp
 L power:GND #PWR0114
 U 1 1 5FED0208
@@ -696,33 +673,33 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0117
 U 1 1 5FEDBCE8
-P 3950 2350
-F 0 "#PWR0117" H 3950 2100 50  0001 C CNN
-F 1 "GND" V 3955 2222 50  0000 R CNN
-F 2 "" H 3950 2350 50  0001 C CNN
-F 3 "" H 3950 2350 50  0001 C CNN
-	1    3950 2350
+P 1950 2350
+F 0 "#PWR0117" H 1950 2100 50  0001 C CNN
+F 1 "GND" V 1955 2222 50  0000 R CNN
+F 2 "" H 1950 2350 50  0001 C CNN
+F 3 "" H 1950 2350 50  0001 C CNN
+	1    1950 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 2250 3950 2250
+	2050 2250 1950 2250
 Wire Wire Line
-	3950 2250 3950 2350
+	1950 2250 1950 2350
 $Comp
 L power:GND #PWR0118
 U 1 1 5FEDF17F
-P 3950 1850
-F 0 "#PWR0118" H 3950 1600 50  0001 C CNN
-F 1 "GND" V 3955 1722 50  0000 R CNN
-F 2 "" H 3950 1850 50  0001 C CNN
-F 3 "" H 3950 1850 50  0001 C CNN
-	1    3950 1850
+P 1950 1850
+F 0 "#PWR0118" H 1950 1600 50  0001 C CNN
+F 1 "GND" V 1955 1722 50  0000 R CNN
+F 2 "" H 1950 1850 50  0001 C CNN
+F 3 "" H 1950 1850 50  0001 C CNN
+	1    1950 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 1750 3950 1750
+	2050 1750 1950 1750
 Wire Wire Line
-	3950 1750 3950 1850
+	1950 1750 1950 1850
 $Comp
 L power:GND #PWR0119
 U 1 1 5FEE279D
@@ -771,59 +748,33 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0122
 U 1 1 5FEED554
-P 1950 1850
-F 0 "#PWR0122" H 1950 1600 50  0001 C CNN
-F 1 "GND" V 1955 1722 50  0000 R CNN
-F 2 "" H 1950 1850 50  0001 C CNN
-F 3 "" H 1950 1850 50  0001 C CNN
-	1    1950 1850
+P 3950 1850
+F 0 "#PWR0122" H 3950 1600 50  0001 C CNN
+F 1 "GND" V 3955 1722 50  0000 R CNN
+F 2 "" H 3950 1850 50  0001 C CNN
+F 3 "" H 3950 1850 50  0001 C CNN
+	1    3950 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 1750 1950 1750
+	4050 1750 3950 1750
 Wire Wire Line
-	1950 1750 1950 1850
+	3950 1750 3950 1850
 $Comp
 L power:GND #PWR0123
 U 1 1 5FEF1314
-P 1950 2350
-F 0 "#PWR0123" H 1950 2100 50  0001 C CNN
-F 1 "GND" V 1955 2222 50  0000 R CNN
-F 2 "" H 1950 2350 50  0001 C CNN
-F 3 "" H 1950 2350 50  0001 C CNN
-	1    1950 2350
+P 3950 2350
+F 0 "#PWR0123" H 3950 2100 50  0001 C CNN
+F 1 "GND" V 3955 2222 50  0000 R CNN
+F 2 "" H 3950 2350 50  0001 C CNN
+F 3 "" H 3950 2350 50  0001 C CNN
+	1    3950 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 2250 1950 2250
+	4050 2250 3950 2250
 Wire Wire Line
-	1950 2250 1950 2350
-$Comp
-L power:GND #PWR0124
-U 1 1 5FF14AFF
-P 3250 3650
-F 0 "#PWR0124" H 3250 3400 50  0001 C CNN
-F 1 "GND" V 3255 3522 50  0000 R CNN
-F 2 "" H 3250 3650 50  0001 C CNN
-F 3 "" H 3250 3650 50  0001 C CNN
-	1    3250 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3250 3550 3250 3650
-$Comp
-L power:GND #PWR0125
-U 1 1 5FF2A5A4
-P 4250 3650
-F 0 "#PWR0125" H 4250 3400 50  0001 C CNN
-F 1 "GND" V 4255 3522 50  0000 R CNN
-F 2 "" H 4250 3650 50  0001 C CNN
-F 3 "" H 4250 3650 50  0001 C CNN
-	1    4250 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 3550 4250 3650
+	3950 2250 3950 2350
 $Comp
 L power:GND #PWR0126
 U 1 1 5FF2E742
@@ -837,32 +788,6 @@ F 3 "" H 2250 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2250 3550 2250 3650
-$Comp
-L power:GND #PWR0127
-U 1 1 5FF33D84
-P 2750 5650
-F 0 "#PWR0127" H 2750 5400 50  0001 C CNN
-F 1 "GND" V 2755 5522 50  0000 R CNN
-F 2 "" H 2750 5650 50  0001 C CNN
-F 3 "" H 2750 5650 50  0001 C CNN
-	1    2750 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 5550 2750 5650
-$Comp
-L power:GND #PWR0128
-U 1 1 5FF3807D
-P 3750 5650
-F 0 "#PWR0128" H 3750 5400 50  0001 C CNN
-F 1 "GND" V 3755 5522 50  0000 R CNN
-F 2 "" H 3750 5650 50  0001 C CNN
-F 3 "" H 3750 5650 50  0001 C CNN
-	1    3750 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 5550 3750 5650
 $Comp
 L power:GND #PWR0129
 U 1 1 5FF46AC0
@@ -969,9 +894,9 @@ Wire Wire Line
 Wire Wire Line
 	3650 4950 3650 4850
 Wire Wire Line
-	2450 2250 2800 2250
+	4450 2250 4800 2250
 Wire Wire Line
-	2450 1750 2800 1750
+	4450 1750 4800 1750
 Wire Wire Line
 	2450 1250 2800 1250
 Wire Wire Line
@@ -979,9 +904,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 1250 4800 1250
 Wire Wire Line
-	4450 1750 4800 1750
+	2450 1750 2800 1750
 Wire Wire Line
-	4500 2250 4850 2250
+	2450 2250 2800 2250
 Wire Wire Line
 	2450 4250 2800 4250
 Wire Wire Line
@@ -991,13 +916,13 @@ Wire Wire Line
 Wire Wire Line
 	1450 6250 1800 6250
 Wire Wire Line
-	1450 7250 1800 7250
+	5450 6250 5800 6250
 Wire Wire Line
 	3450 7300 3800 7300
 Wire Wire Line
-	5500 7250 5850 7250
+	5450 7250 5800 7250
 Wire Wire Line
-	5500 6250 5850 6250
+	1450 7250 1800 7250
 Wire Wire Line
 	3450 6750 3800 6750
 Wire Wire Line
@@ -1009,53 +934,21 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x05 J4
 U 1 1 600CA7A9
-P 3100 2250
-F 0 "J4" H 3018 1825 50  0000 C CNN
-F 1 "Conn_01x05" H 3018 1916 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3100 2250 50  0001 C CNN
-F 3 "~" H 3100 2250 50  0001 C CNN
-	1    3100 2250
+P 3050 2250
+F 0 "J4" H 2968 1825 50  0000 C CNN
+F 1 "Conn_01x05" H 2968 1916 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3050 2250 50  0001 C CNN
+F 3 "~" H 3050 2250 50  0001 C CNN
+	1    3050 2250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3300 2050 3650 2050
-Wire Wire Line
-	3300 2150 3650 2150
-Wire Wire Line
-	3300 2250 3650 2250
-Wire Wire Line
-	3300 2350 3650 2350
-Wire Wire Line
-	3300 2450 3650 2450
 $Comp
-L Device:Rotary_Encoder_Switch SW_Z-JOG1
-U 1 1 5FE20425
-P 4250 3250
-F 0 "SW_Z-JOG1" V 4296 3020 50  0000 R CNN
-F 1 "Rotary_Encoder_Switch" V 4205 3020 50  0000 R CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm" H 4100 3410 50  0001 C CNN
-F 3 "~" H 4250 3510 50  0001 C CNN
-	1    4250 3250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Rotary_Encoder_Switch SW_Y-JOG1
-U 1 1 5FE1D869
-P 3250 3250
-F 0 "SW_Y-JOG1" V 3296 3020 50  0000 R CNN
-F 1 "Rotary_Encoder_Switch" V 3205 3020 50  0000 R CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm" H 3100 3410 50  0001 C CNN
-F 3 "~" H 3250 3510 50  0001 C CNN
-	1    3250 3250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Rotary_Encoder_Switch SW_X-JOG1
+L Device:Rotary_Encoder_Switch EN_JOG_X1
 U 1 1 5FE1ADA1
 P 2250 3250
-F 0 "SW_X-JOG1" V 2296 3020 50  0000 R CNN
+F 0 "EN_JOG_X1" V 2296 3020 50  0000 R CNN
 F 1 "Rotary_Encoder_Switch" V 2205 3020 50  0000 R CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm" H 2100 3410 50  0001 C CNN
+F 2 "Encoder:PEC11R-4x15K" H 2100 3410 50  0001 C CNN
 F 3 "~" H 2250 3510 50  0001 C CNN
 	1    2250 3250
 	0    -1   -1   0   
@@ -1115,5 +1008,340 @@ F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 1750 5450 50  0001 C CNN
 F 3 "~" H 1750 5450 50  0001 C CNN
 	1    1750 5250
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0136
+U 1 1 60033C28
+P 3600 2450
+F 0 "#PWR0136" H 3600 2200 50  0001 C CNN
+F 1 "GND" V 3605 2322 50  0000 R CNN
+F 2 "" H 3600 2450 50  0001 C CNN
+F 3 "" H 3600 2450 50  0001 C CNN
+	1    3600 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 2450 3600 2450
+Wire Wire Line
+	3250 2350 3600 2350
+Wire Wire Line
+	3250 2250 3600 2250
+Wire Wire Line
+	3250 2150 3600 2150
+Wire Wire Line
+	3250 2050 3600 2050
+$Comp
+L power:+5VA #PWR0137
+U 1 1 60061FE6
+P 3600 2350
+F 0 "#PWR0137" H 3600 2200 50  0001 C CNN
+F 1 "+5VA" V 3615 2478 50  0000 L CNN
+F 2 "" H 3600 2350 50  0001 C CNN
+F 3 "" H 3600 2350 50  0001 C CNN
+	1    3600 2350
+	0    1    1    0   
+$EndComp
+Text Label 3350 2250 0    50   ~ 0
+J_X
+Text Label 3350 2150 0    50   ~ 0
+J_Y
+Text Label 3350 2050 0    50   ~ 0
+J_SW
+Text Label 9350 3650 0    50   ~ 0
+J_X
+Text Label 9350 3750 0    50   ~ 0
+J_Y
+Text Label 3550 6250 0    50   ~ 0
+PY+
+Text Label 3550 6750 0    50   ~ 0
+PZ-
+Text Label 3550 7300 0    50   ~ 0
+PY-
+Text Label 4550 6750 0    50   ~ 0
+PX+
+Text Label 2550 6750 0    50   ~ 0
+PX-
+Text Label 5550 6250 0    50   ~ 0
+M2
+Text Label 5550 7250 0    50   ~ 0
+M4
+Text Label 1550 6250 0    50   ~ 0
+M1
+Text Label 1550 7250 0    50   ~ 0
+M3
+Text Label 2050 5250 0    50   ~ 0
+FR
+Text Label 5050 5250 0    50   ~ 0
+SR
+Text Label 3950 4850 0    50   ~ 0
+SW_S
+Text Label 2950 4850 0    50   ~ 0
+SW_F
+Text Label 2550 4250 0    50   ~ 0
+HX
+Text Label 3550 4250 0    50   ~ 0
+HY
+Text Label 4550 4250 0    50   ~ 0
+HZ
+Text Label 4450 2850 0    50   ~ 0
+SW_Z
+Text Label 3450 2850 0    50   ~ 0
+SW_Y
+Text Label 2450 2850 0    50   ~ 0
+SW_X
+Text Label 2550 1250 0    50   ~ 0
+RST
+Text Label 3550 1250 0    50   ~ 0
+HLD
+Text Label 4550 1250 0    50   ~ 0
+STR
+Text Label 2550 1750 0    50   ~ 0
+ML
+Text Label 2550 2250 0    50   ~ 0
+MR
+Text Label 4550 1750 0    50   ~ 0
+HA
+Text Label 4550 2250 0    50   ~ 0
+UL
+Wire Wire Line
+	2350 3550 2350 3650
+Wire Wire Line
+	2350 3650 2700 3650
+Wire Wire Line
+	2150 3550 2150 3650
+Wire Wire Line
+	2150 3650 1800 3650
+$Comp
+L power:GND #PWR0124
+U 1 1 60180159
+P 3250 3650
+F 0 "#PWR0124" H 3250 3400 50  0001 C CNN
+F 1 "GND" V 3255 3522 50  0000 R CNN
+F 2 "" H 3250 3650 50  0001 C CNN
+F 3 "" H 3250 3650 50  0001 C CNN
+	1    3250 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3550 3250 3650
+Wire Wire Line
+	3350 3550 3350 3650
+Wire Wire Line
+	3350 3650 3700 3650
+Wire Wire Line
+	3150 3550 3150 3650
+Wire Wire Line
+	3150 3650 2800 3650
+$Comp
+L power:GND #PWR0125
+U 1 1 60189814
+P 4250 3650
+F 0 "#PWR0125" H 4250 3400 50  0001 C CNN
+F 1 "GND" V 4255 3522 50  0000 R CNN
+F 2 "" H 4250 3650 50  0001 C CNN
+F 3 "" H 4250 3650 50  0001 C CNN
+	1    4250 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3550 4250 3650
+Wire Wire Line
+	4350 3550 4350 3650
+Wire Wire Line
+	4350 3650 4700 3650
+Wire Wire Line
+	4150 3550 4150 3650
+Wire Wire Line
+	4150 3650 3800 3650
+Text Label 1900 3650 0    50   ~ 0
+XA
+Text Label 2500 3650 0    50   ~ 0
+XB
+Text Label 2900 3650 0    50   ~ 0
+YA
+Text Label 3500 3650 0    50   ~ 0
+YB
+Text Label 3900 3650 0    50   ~ 0
+ZA
+Text Label 4500 3650 0    50   ~ 0
+ZB
+$Comp
+L power:GND #PWR0127
+U 1 1 601A726C
+P 2750 5650
+F 0 "#PWR0127" H 2750 5400 50  0001 C CNN
+F 1 "GND" V 2755 5522 50  0000 R CNN
+F 2 "" H 2750 5650 50  0001 C CNN
+F 3 "" H 2750 5650 50  0001 C CNN
+	1    2750 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 5550 2750 5650
+Wire Wire Line
+	2850 5550 2850 5650
+Wire Wire Line
+	2850 5650 3200 5650
+Wire Wire Line
+	2650 5550 2650 5650
+Wire Wire Line
+	2650 5650 2300 5650
+$Comp
+L power:GND #PWR0128
+U 1 1 601B17C4
+P 3750 5650
+F 0 "#PWR0128" H 3750 5400 50  0001 C CNN
+F 1 "GND" V 3755 5522 50  0000 R CNN
+F 2 "" H 3750 5650 50  0001 C CNN
+F 3 "" H 3750 5650 50  0001 C CNN
+	1    3750 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 5550 3750 5650
+Wire Wire Line
+	3850 5550 3850 5650
+Wire Wire Line
+	3850 5650 4200 5650
+Wire Wire Line
+	3650 5550 3650 5650
+Wire Wire Line
+	3650 5650 3300 5650
+Text Label 2400 5650 0    50   ~ 0
+FA
+Text Label 3000 5650 0    50   ~ 0
+FB
+Text Label 3400 5650 0    50   ~ 0
+SA
+Text Label 4000 5650 0    50   ~ 0
+SB
+Text Label 9350 3350 0    50   ~ 0
+SA
+Text Label 9350 3250 0    50   ~ 0
+ZA
+Text Label 7200 2950 0    50   ~ 0
+FA
+Text Label 7200 2650 0    50   ~ 0
+YA
+Text Label 7200 2750 0    50   ~ 0
+XA
+Text Label 8800 3850 0    50   ~ 0
+29
+Text Label 8800 3750 0    50   ~ 0
+28
+Wire Wire Line
+	8600 3850 8900 3850
+Wire Wire Line
+	8600 3750 8900 3750
+Text Label 8600 3850 0    50   ~ 0
+PY+
+Text Label 7950 3850 0    50   ~ 0
+SW_F
+Text Label 8600 3750 0    50   ~ 0
+SW_S
+Text Label 7950 3750 0    50   ~ 0
+HY
+Wire Wire Line
+	8100 3850 7800 3850
+Wire Wire Line
+	8100 3750 7800 3750
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6032F7BB
+P 7550 5200
+F 0 "H2" H 7650 5246 50  0000 L CNN
+F 1 "MountingHole" H 7650 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 7550 5200 50  0001 C CNN
+F 3 "~" H 7550 5200 50  0001 C CNN
+	1    7550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 603334A2
+P 7550 5400
+F 0 "H3" H 7650 5446 50  0000 L CNN
+F 1 "MountingHole" H 7650 5355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 7550 5400 50  0001 C CNN
+F 3 "~" H 7550 5400 50  0001 C CNN
+	1    7550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6033D451
+P 7550 5600
+F 0 "H4" H 7650 5646 50  0000 L CNN
+F 1 "MountingHole" H 7650 5555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 7550 5600 50  0001 C CNN
+F 3 "~" H 7550 5600 50  0001 C CNN
+	1    7550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60347499
+P 7550 5800
+F 0 "H5" H 7650 5846 50  0000 L CNN
+F 1 "MountingHole" H 7650 5755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 7550 5800 50  0001 C CNN
+F 3 "~" H 7550 5800 50  0001 C CNN
+	1    7550 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 6035148D
+P 7550 6000
+F 0 "H6" H 7650 6046 50  0000 L CNN
+F 1 "MountingHole" H 7650 5955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 7550 6000 50  0001 C CNN
+F 3 "~" H 7550 6000 50  0001 C CNN
+	1    7550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6035B541
+P 7550 5000
+F 0 "H1" H 7650 5046 50  0000 L CNN
+F 1 "MountingHole" H 7650 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 7550 5000 50  0001 C CNN
+F 3 "~" H 7550 5000 50  0001 C CNN
+	1    7550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J5
+U 1 1 602836FC
+P 8300 3850
+F 0 "J5" H 8350 4067 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 8350 3976 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 8300 3850 50  0001 C CNN
+F 3 "~" H 8300 3850 50  0001 C CNN
+	1    8300 3850
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch EN_JOG_Y1
+U 1 1 5FE1D869
+P 3250 3250
+F 0 "EN_JOG_Y1" V 3296 3020 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V 3205 3020 50  0000 R CNN
+F 2 "Encoder:PEC11R-4x15K" H 3100 3410 50  0001 C CNN
+F 3 "~" H 3250 3510 50  0001 C CNN
+	1    3250 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch EN_JOG_Z1
+U 1 1 5FE20425
+P 4250 3250
+F 0 "EN_JOG_Z1" V 4296 3020 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V 4205 3020 50  0000 R CNN
+F 2 "Encoder:PEC11R-4x15K" H 4100 3410 50  0001 C CNN
+F 3 "~" H 4250 3510 50  0001 C CNN
+	1    4250 3250
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
