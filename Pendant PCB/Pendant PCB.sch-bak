@@ -44,124 +44,44 @@ Text Label 8750 3950 0    50   ~ 0
 30
 Text Label 8750 4050 0    50   ~ 0
 31
-Wire Wire Line
-	9350 4350 9650 4350
-Wire Wire Line
-	9350 4250 9650 4250
-Wire Wire Line
-	9350 4150 9650 4150
-Wire Wire Line
-	9350 4050 9650 4050
-Wire Wire Line
-	9350 3950 9650 3950
-Wire Wire Line
-	9350 3850 9650 3850
-Wire Wire Line
-	9350 3750 9650 3750
-Wire Wire Line
-	9350 3650 9650 3650
-Wire Wire Line
-	9350 3550 9650 3550
-Wire Wire Line
-	9350 3450 9650 3450
-Wire Wire Line
-	9350 3350 9650 3350
-Wire Wire Line
-	9650 3250 9350 3250
-Wire Wire Line
-	9350 3150 9650 3150
-Wire Wire Line
-	9350 3050 9650 3050
-Wire Wire Line
-	9350 2950 9650 2950
-Wire Wire Line
-	9350 2850 9650 2850
-Wire Wire Line
-	9350 2750 9650 2750
-Wire Wire Line
-	9350 2650 9650 2650
-Wire Wire Line
-	9350 2550 9650 2550
-Wire Wire Line
-	9350 2450 9650 2450
-Text Label 7050 4350 0    50   ~ 0
+Text Label 7000 4350 0    50   ~ 0
 17
-Text Label 7050 4250 0    50   ~ 0
+Text Label 7000 4250 0    50   ~ 0
 16
-Text Label 7050 4150 0    50   ~ 0
+Text Label 7000 4150 0    50   ~ 0
 15
-Text Label 7050 4050 0    50   ~ 0
+Text Label 7000 4050 0    50   ~ 0
 14
-Text Label 7050 3950 0    50   ~ 0
+Text Label 7000 3950 0    50   ~ 0
 13
-Text Label 7050 3850 0    50   ~ 0
+Text Label 7000 3850 0    50   ~ 0
 12
-Text Label 7050 3750 0    50   ~ 0
+Text Label 7000 3750 0    50   ~ 0
 11
-Text Label 7050 3650 0    50   ~ 0
+Text Label 7000 3650 0    50   ~ 0
 10
-Text Label 7050 3550 0    50   ~ 0
+Text Label 7000 3550 0    50   ~ 0
 9
-Text Label 7050 3450 0    50   ~ 0
+Text Label 7000 3450 0    50   ~ 0
 8
-Text Label 7050 3350 0    50   ~ 0
+Text Label 7000 3350 0    50   ~ 0
 7
-Text Label 7050 3250 0    50   ~ 0
+Text Label 7000 3250 0    50   ~ 0
 6
-Text Label 7050 3150 0    50   ~ 0
+Text Label 7000 3150 0    50   ~ 0
 5
-Text Label 7050 3050 0    50   ~ 0
+Text Label 7000 3050 0    50   ~ 0
 4
-Text Label 7050 2950 0    50   ~ 0
+Text Label 7000 2950 0    50   ~ 0
 3
-Text Label 7050 2850 0    50   ~ 0
+Text Label 7000 2850 0    50   ~ 0
 2
-Text Label 7050 2750 0    50   ~ 0
+Text Label 7000 2750 0    50   ~ 0
 1
-Text Label 7050 2650 0    50   ~ 0
+Text Label 7000 2650 0    50   ~ 0
 0
-Text Label 7200 2450 0    50   ~ 0
+Text Label 7150 2450 0    50   ~ 0
 GND
-Wire Wire Line
-	7350 2550 7050 2550
-Wire Wire Line
-	7350 4350 7050 4350
-Wire Wire Line
-	7350 4250 7050 4250
-Wire Wire Line
-	7350 4150 7050 4150
-Wire Wire Line
-	7350 4050 7050 4050
-Wire Wire Line
-	7350 3950 7050 3950
-Wire Wire Line
-	7350 3850 7050 3850
-Wire Wire Line
-	7350 3750 7050 3750
-Wire Wire Line
-	7050 3650 7350 3650
-Wire Wire Line
-	7350 3550 7050 3550
-Wire Wire Line
-	7350 3450 7050 3450
-Wire Wire Line
-	7350 3350 7050 3350
-Wire Wire Line
-	7350 3250 7050 3250
-Wire Wire Line
-	7350 3150 7050 3150
-Wire Wire Line
-	7350 3050 7050 3050
-Wire Wire Line
-	7350 2950 7050 2950
-Wire Wire Line
-	7350 2850 7050 2850
-Wire Wire Line
-	7350 2750 7050 2750
-Wire Wire Line
-	7350 2650 7050 2650
-Wire Wire Line
-	7350 2450 7050 2450
 $Comp
 L Connector_Generic:Conn_01x20 J1
 U 1 1 5FE10107
@@ -173,53 +93,53 @@ F 3 "~" H 7550 3350 50  0001 C CNN
 	1    7550 3350
 	1    0    0    -1  
 $EndComp
-Text Label 7050 2550 0    50   ~ 0
+Text Label 7000 2550 0    50   ~ 0
 27
-Text Label 9450 2450 0    50   ~ 0
+Text Label 9500 2450 0    50   ~ 0
 +5V
-Text Label 9550 2550 0    50   ~ 0
+Text Label 9600 2550 0    50   ~ 0
 26
-Text Label 9550 2650 0    50   ~ 0
+Text Label 9600 2650 0    50   ~ 0
 25
-Text Label 9550 2750 0    50   ~ 0
+Text Label 9600 2750 0    50   ~ 0
 24
-Text Label 9550 2850 0    50   ~ 0
+Text Label 9600 2850 0    50   ~ 0
 23
-Text Label 9550 2950 0    50   ~ 0
+Text Label 9600 2950 0    50   ~ 0
 22
-Text Label 9550 3050 0    50   ~ 0
+Text Label 9600 3050 0    50   ~ 0
 21
-Text Label 9550 3150 0    50   ~ 0
+Text Label 9600 3150 0    50   ~ 0
 20
-Text Label 9550 3250 0    50   ~ 0
+Text Label 9600 3250 0    50   ~ 0
 19
-Text Label 9550 3350 0    50   ~ 0
+Text Label 9600 3350 0    50   ~ 0
 18
-Text Label 9450 3450 0    50   ~ 0
+Text Label 9550 3450 0    50   ~ 0
 GND
-Text Label 9450 3550 0    50   ~ 0
+Text Label 9550 3550 0    50   ~ 0
 REF
-Text Label 9550 3650 0    50   ~ 0
-38
-Text Label 9550 3750 0    50   ~ 0
+Text Label 9600 3650 0    50   ~ 0
+A0
+Text Label 9600 3750 0    50   ~ 0
 39
-Text Label 9550 3850 0    50   ~ 0
-40
-Text Label 9550 3950 0    50   ~ 0
+Text Label 9600 3850 0    50   ~ 0
+A2
+Text Label 9600 3950 0    50   ~ 0
 41
-Text Label 9550 4050 0    50   ~ 0
+Text Label 9600 4050 0    50   ~ 0
 42
-Text Label 9550 4150 0    50   ~ 0
+Text Label 9600 4150 0    50   ~ 0
 43
-Text Label 9550 4250 0    50   ~ 0
+Text Label 9600 4250 0    50   ~ 0
 44
-Text Label 9550 4350 0    50   ~ 0
+Text Label 9600 4350 0    50   ~ 0
 45
 $Comp
-L Device:Rotary_Encoder_Switch EN_FEED
+L Device:Rotary_Encoder_Switch EN_FEED1
 U 1 1 5FE234AF
 P 2750 5250
-F 0 "EN_FEED" V 2796 5020 50  0000 R CNN
+F 0 "EN_FEED1" V 2796 5020 50  0000 R CNN
 F 1 "Rotary_Encoder_Switch" V 2705 5020 50  0000 R CNN
 F 2 "Encoder:PEC11R-4x15K" H 2600 5410 50  0001 C CNN
 F 3 "~" H 2750 5510 50  0001 C CNN
@@ -227,10 +147,10 @@ F 3 "~" H 2750 5510 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch EN_SPINDLE
+L Device:Rotary_Encoder_Switch EN_SPINDLE1
 U 1 1 5FE255DF
 P 3750 5250
-F 0 "EN_SPINDLE" V 3796 5020 50  0000 R CNN
+F 0 "EN_SPINDLE1" V 3796 5020 50  0000 R CNN
 F 1 "Rotary_Encoder_Switch" V 3705 5020 50  0000 R CNN
 F 2 "Encoder:PEC11R-4x15K" H 3600 5410 50  0001 C CNN
 F 3 "~" H 3750 5510 50  0001 C CNN
@@ -257,7 +177,7 @@ F 1 "SW_Push" H 3250 1444 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3250 1450 50  0001 C CNN
 F 3 "~" H 3250 1450 50  0001 C CNN
 	1    3250 1250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_START1
@@ -378,7 +298,7 @@ F 1 "SW_Push" H 5250 6444 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 5250 6450 50  0001 C CNN
 F 3 "~" H 5250 6450 50  0001 C CNN
 	1    5250 6250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_MACRO-4
@@ -389,7 +309,7 @@ F 1 "SW_Push" H 5250 7444 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 5250 7450 50  0001 C CNN
 F 3 "~" H 5250 7450 50  0001 C CNN
 	1    5250 7250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_PY+1
@@ -403,17 +323,6 @@ F 3 "~" H 3250 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW_PX-1
-U 1 1 5FE78C72
-P 2250 6750
-F 0 "SW_PX-1" H 2250 7035 50  0000 C CNN
-F 1 "SW_Push" H 2250 6944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2250 6950 50  0001 C CNN
-F 3 "~" H 2250 6950 50  0001 C CNN
-	1    2250 6750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW_PX+1
 U 1 1 5FE7ABFB
 P 4250 6750
@@ -422,7 +331,7 @@ F 1 "SW_Push" H 4250 6944 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 4250 6950 50  0001 C CNN
 F 3 "~" H 4250 6950 50  0001 C CNN
 	1    4250 6750
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_PY-1
@@ -433,7 +342,7 @@ F 1 "SW_Push" H 3250 7494 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3250 7500 50  0001 C CNN
 F 3 "~" H 3250 7500 50  0001 C CNN
 	1    3250 7300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_PZ-1
@@ -449,45 +358,45 @@ $EndComp
 $Comp
 L power:+5V #PWR0101
 U 1 1 5FE8D812
-P 9650 2450
-F 0 "#PWR0101" H 9650 2300 50  0001 C CNN
-F 1 "+5V" V 9665 2578 50  0000 L CNN
-F 2 "" H 9650 2450 50  0001 C CNN
-F 3 "" H 9650 2450 50  0001 C CNN
-	1    9650 2450
+P 9700 2450
+F 0 "#PWR0101" H 9700 2300 50  0001 C CNN
+F 1 "+5V" V 9715 2578 50  0000 L CNN
+F 2 "" H 9700 2450 50  0001 C CNN
+F 3 "" H 9700 2450 50  0001 C CNN
+	1    9700 2450
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5FE953C9
-P 7050 2450
-F 0 "#PWR0102" H 7050 2200 50  0001 C CNN
-F 1 "GND" V 7055 2322 50  0000 R CNN
-F 2 "" H 7050 2450 50  0001 C CNN
-F 3 "" H 7050 2450 50  0001 C CNN
-	1    7050 2450
+P 7000 2450
+F 0 "#PWR0102" H 7000 2200 50  0001 C CNN
+F 1 "GND" V 7005 2322 50  0000 R CNN
+F 2 "" H 7000 2450 50  0001 C CNN
+F 3 "" H 7000 2450 50  0001 C CNN
+	1    7000 2450
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5FE96302
-P 9650 3450
-F 0 "#PWR0103" H 9650 3200 50  0001 C CNN
-F 1 "GND" V 9655 3322 50  0000 R CNN
-F 2 "" H 9650 3450 50  0001 C CNN
-F 3 "" H 9650 3450 50  0001 C CNN
-	1    9650 3450
+P 9700 3450
+F 0 "#PWR0103" H 9700 3200 50  0001 C CNN
+F 1 "GND" V 9705 3322 50  0000 R CNN
+F 2 "" H 9700 3450 50  0001 C CNN
+F 3 "" H 9700 3450 50  0001 C CNN
+	1    9700 3450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5VA #PWR0104
 U 1 1 5FE98144
-P 9650 3550
-F 0 "#PWR0104" H 9650 3400 50  0001 C CNN
-F 1 "+5VA" V 9665 3678 50  0000 L CNN
-F 2 "" H 9650 3550 50  0001 C CNN
-F 3 "" H 9650 3550 50  0001 C CNN
-	1    9650 3550
+P 9700 3550
+F 0 "#PWR0104" H 9700 3400 50  0001 C CNN
+F 1 "+5VA" V 9715 3678 50  0000 L CNN
+F 2 "" H 9700 3550 50  0001 C CNN
+F 3 "" H 9700 3550 50  0001 C CNN
+	1    9700 3550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -943,32 +852,10 @@ F 3 "~" H 3050 2250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch EN_JOG_Z
-U 1 1 5FE20425
-P 4250 3250
-F 0 "EN_JOG_Z" V 4296 3020 50  0000 R CNN
-F 1 "Rotary_Encoder_Switch" V 4205 3020 50  0000 R CNN
-F 2 "Encoder:PEC11R-4x15K" H 4100 3410 50  0001 C CNN
-F 3 "~" H 4250 3510 50  0001 C CNN
-	1    4250 3250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Rotary_Encoder_Switch EN_JOG_Y
-U 1 1 5FE1D869
-P 3250 3250
-F 0 "EN_JOG_Y" V 3296 3020 50  0000 R CNN
-F 1 "Rotary_Encoder_Switch" V 3205 3020 50  0000 R CNN
-F 2 "Encoder:PEC11R-4x15K" H 3100 3410 50  0001 C CNN
-F 3 "~" H 3250 3510 50  0001 C CNN
-	1    3250 3250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Rotary_Encoder_Switch EN_JOG_X
+L Device:Rotary_Encoder_Switch EN_JOG_X1
 U 1 1 5FE1ADA1
 P 2250 3250
-F 0 "EN_JOG_X" V 2296 3020 50  0000 R CNN
+F 0 "EN_JOG_X1" V 2296 3020 50  0000 R CNN
 F 1 "Rotary_Encoder_Switch" V 2205 3020 50  0000 R CNN
 F 2 "Encoder:PEC11R-4x15K" H 2100 3410 50  0001 C CNN
 F 3 "~" H 2250 3510 50  0001 C CNN
@@ -1069,9 +956,9 @@ Text Label 3350 2150 0    50   ~ 0
 J_Y
 Text Label 3350 2050 0    50   ~ 0
 J_SW
-Text Label 9350 3650 0    50   ~ 0
+Text Label 9400 3650 0    50   ~ 0
 J_X
-Text Label 9350 3750 0    50   ~ 0
+Text Label 9400 3850 0    50   ~ 0
 J_Y
 Text Label 3550 6250 0    50   ~ 0
 PY+
@@ -1237,15 +1124,15 @@ Text Label 3400 5650 0    50   ~ 0
 SA
 Text Label 4000 5650 0    50   ~ 0
 SB
-Text Label 9350 3350 0    50   ~ 0
+Text Label 9400 3350 0    50   ~ 0
 SA
-Text Label 9350 3250 0    50   ~ 0
+Text Label 9400 3250 0    50   ~ 0
 ZA
-Text Label 7200 2950 0    50   ~ 0
+Text Label 7150 2950 0    50   ~ 0
 FA
-Text Label 7200 2650 0    50   ~ 0
+Text Label 7150 2650 0    50   ~ 0
 YA
-Text Label 7200 2750 0    50   ~ 0
+Text Label 7150 2850 0    50   ~ 0
 XA
 Text Label 8800 3850 0    50   ~ 0
 29
@@ -1257,11 +1144,11 @@ Wire Wire Line
 	8600 3750 8900 3750
 Text Label 8600 3850 0    50   ~ 0
 PY+
-Text Label 7950 3850 0    50   ~ 0
+Text Label 7100 3450 0    50   ~ 0
 SW_F
-Text Label 8600 3750 0    50   ~ 0
+Text Label 9350 3750 0    50   ~ 0
 SW_S
-Text Label 7950 3750 0    50   ~ 0
+Text Label 7150 3350 0    50   ~ 0
 HY
 Wire Wire Line
 	8100 3850 7800 3850
@@ -1344,4 +1231,217 @@ F 3 "~" H 8300 3850 50  0001 C CNN
 	1    8300 3850
 	1    0    0    1   
 $EndComp
+$Comp
+L Device:Rotary_Encoder_Switch EN_JOG_Y1
+U 1 1 5FE1D869
+P 3250 3250
+F 0 "EN_JOG_Y1" V 3296 3020 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V 3205 3020 50  0000 R CNN
+F 2 "Encoder:PEC11R-4x15K" H 3100 3410 50  0001 C CNN
+F 3 "~" H 3250 3510 50  0001 C CNN
+	1    3250 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch EN_JOG_Z1
+U 1 1 5FE20425
+P 4250 3250
+F 0 "EN_JOG_Z1" V 4296 3020 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V 4205 3020 50  0000 R CNN
+F 2 "Encoder:PEC11R-4x15K" H 4100 3410 50  0001 C CNN
+F 3 "~" H 4250 3510 50  0001 C CNN
+	1    4250 3250
+	0    -1   -1   0   
+$EndComp
+Text Label 7150 2550 0    50   ~ 0
+YB
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5FFA38D6
+P 8350 5200
+F 0 "H7" H 8450 5246 50  0000 L CNN
+F 1 "MountingHole" H 8450 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8350 5200 50  0001 C CNN
+F 3 "~" H 8350 5200 50  0001 C CNN
+	1    8350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5FFAD84D
+P 8350 5400
+F 0 "H8" H 8450 5446 50  0000 L CNN
+F 1 "MountingHole" H 8450 5355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8350 5400 50  0001 C CNN
+F 3 "~" H 8350 5400 50  0001 C CNN
+	1    8350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5FFB78C9
+P 8350 5600
+F 0 "H9" H 8450 5646 50  0000 L CNN
+F 1 "MountingHole" H 8450 5555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8350 5600 50  0001 C CNN
+F 3 "~" H 8350 5600 50  0001 C CNN
+	1    8350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5FFC1839
+P 8350 5800
+F 0 "H10" H 8450 5846 50  0000 L CNN
+F 1 "MountingHole" H 8450 5755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8350 5800 50  0001 C CNN
+F 3 "~" H 8350 5800 50  0001 C CNN
+	1    8350 5800
+	1    0    0    -1  
+$EndComp
+Text Label 9350 2550 0    50   ~ 0
+SW_Y
+Text Label 7150 2750 0    50   ~ 0
+XB
+Text Label 7150 3050 0    50   ~ 0
+FB
+Text Label 7150 3150 0    50   ~ 0
+HX
+Text Label 7150 3250 0    50   ~ 0
+FR
+Text Label 7150 3950 0    50   ~ 0
+M1
+Text Label 7150 4150 0    50   ~ 0
+PX-
+Text Label 7150 4050 0    50   ~ 0
+M3
+Text Label 7150 3550 0    50   ~ 0
+RST
+Text Label 7150 3650 0    50   ~ 0
+MR
+Text Label 7150 3750 0    50   ~ 0
+ML
+Text Label 7150 3850 0    50   ~ 0
+SW_X
+$Comp
+L Switch:SW_Push SW_PX-1
+U 1 1 5FE78C72
+P 2250 6750
+F 0 "SW_PX-1" H 2250 7035 50  0000 C CNN
+F 1 "SW_Push" H 2250 6944 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2250 6950 50  0001 C CNN
+F 3 "~" H 2250 6950 50  0001 C CNN
+	1    2250 6750
+	-1   0    0    -1  
+$EndComp
+Text Label 8600 3750 0    50   ~ 0
+PX+
+Text Label 7950 3750 0    50   ~ 0
+PZ-
+Text Label 7150 4350 0    50   ~ 0
+PY-
+Text Label 7150 4250 0    50   ~ 0
+M4
+Text Label 7950 3850 0    50   ~ 0
+M2
+Wire Wire Line
+	9350 2450 9700 2450
+Wire Wire Line
+	9350 2550 9700 2550
+Wire Wire Line
+	9350 2650 9700 2650
+Wire Wire Line
+	9350 2750 9700 2750
+Wire Wire Line
+	9350 2850 9700 2850
+Wire Wire Line
+	9350 2950 9700 2950
+Wire Wire Line
+	9350 3050 9700 3050
+Wire Wire Line
+	9350 3150 9700 3150
+Wire Wire Line
+	9350 3250 9700 3250
+Wire Wire Line
+	9350 3350 9700 3350
+Wire Wire Line
+	9350 3450 9700 3450
+Wire Wire Line
+	9350 3550 9700 3550
+Wire Wire Line
+	9350 3650 9700 3650
+Wire Wire Line
+	9350 3750 9700 3750
+Wire Wire Line
+	9350 3850 9700 3850
+Wire Wire Line
+	9350 3950 9700 3950
+Wire Wire Line
+	9350 4050 9700 4050
+Wire Wire Line
+	9350 4150 9700 4150
+Wire Wire Line
+	9350 4250 9700 4250
+Wire Wire Line
+	9350 4350 9700 4350
+Wire Wire Line
+	7000 4350 7350 4350
+Wire Wire Line
+	7000 4250 7350 4250
+Wire Wire Line
+	7000 4150 7350 4150
+Wire Wire Line
+	7000 4050 7350 4050
+Wire Wire Line
+	7000 3850 7350 3850
+Wire Wire Line
+	7000 3950 7350 3950
+Wire Wire Line
+	7000 3750 7350 3750
+Wire Wire Line
+	7000 3650 7350 3650
+Wire Wire Line
+	7000 3550 7350 3550
+Wire Wire Line
+	7000 3450 7350 3450
+Wire Wire Line
+	7000 3350 7350 3350
+Wire Wire Line
+	7000 3250 7350 3250
+Wire Wire Line
+	7000 3150 7350 3150
+Wire Wire Line
+	7000 3050 7350 3050
+Wire Wire Line
+	7000 2950 7350 2950
+Wire Wire Line
+	7000 2850 7350 2850
+Wire Wire Line
+	7000 2750 7350 2750
+Wire Wire Line
+	7000 2650 7350 2650
+Wire Wire Line
+	7000 2550 7350 2550
+Wire Wire Line
+	7000 2450 7350 2450
+Text Label 9400 3150 0    50   ~ 0
+ZB
+Text Label 9350 2650 0    50   ~ 0
+J_SW
+Text Label 9400 2750 0    50   ~ 0
+HLD
+Text Label 9400 2850 0    50   ~ 0
+STR
+Text Label 9400 2950 0    50   ~ 0
+HA
+Text Label 9400 3950 0    50   ~ 0
+SB
+Text Label 9400 3050 0    50   ~ 0
+HZ
+Text Label 9400 4050 0    50   ~ 0
+UL
+Text Label 9400 4150 0    50   ~ 0
+SR
+Text Label 9350 4250 0    50   ~ 0
+SW_Z
 $EndSCHEMATC
