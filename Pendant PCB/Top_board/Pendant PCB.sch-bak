@@ -166,7 +166,7 @@ F 1 "SW_Push" H 2250 1444 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2250 1450 50  0001 C CNN
 F 3 "~" H 2250 1450 50  0001 C CNN
 	1    2250 1250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_HOLD1
@@ -177,7 +177,7 @@ F 1 "SW_Push" H 3250 1444 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3250 1450 50  0001 C CNN
 F 3 "~" H 3250 1450 50  0001 C CNN
 	1    3250 1250
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_START1
@@ -188,7 +188,7 @@ F 1 "SW_Push" H 4250 1444 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 4250 1450 50  0001 C CNN
 F 3 "~" H 4250 1450 50  0001 C CNN
 	1    4250 1250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_$H1
@@ -199,7 +199,7 @@ F 1 "SW_Push" H 4250 1944 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 4250 1950 50  0001 C CNN
 F 3 "~" H 4250 1950 50  0001 C CNN
 	1    4250 1750
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_L-CLICK1
@@ -210,7 +210,7 @@ F 1 "SW_Push" H 2250 1944 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2250 1950 50  0001 C CNN
 F 3 "~" H 2250 1950 50  0001 C CNN
 	1    2250 1750
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_$X1
@@ -221,7 +221,7 @@ F 1 "SW_Push" H 4250 2444 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 4250 2450 50  0001 C CNN
 F 3 "~" H 4250 2450 50  0001 C CNN
 	1    4250 2250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_R-CLICK1
@@ -232,7 +232,7 @@ F 1 "SW_Push" H 2250 2444 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2250 2450 50  0001 C CNN
 F 3 "~" H 2250 2450 50  0001 C CNN
 	1    2250 2250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_$HX1

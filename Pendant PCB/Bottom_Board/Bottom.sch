@@ -1,0 +1,258 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical_misc:Thumbstick_push T1
+U 1 1 5FF5A675
+P 3950 3600
+F 0 "T1" H 3950 3650 50  0000 C CNN
+F 1 "Thumbstick_push" H 3850 3500 50  0000 C CNN
+F 2 "Thumbstick:RKJXV1224_CAP" H 3900 3700 50  0001 C CNN
+F 3 "" H 3950 3600 50  0001 C CNN
+	1    3950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B J1
+U 1 1 5FF5AE7E
+P 3400 6100
+F 0 "J1" H 3457 6567 50  0000 C CNN
+F 1 "USB_B" H 3457 6476 50  0000 C CNN
+F 2 "USB:USB_B_Horizontal" H 3550 6050 50  0001 C CNN
+F 3 " ~" H 3550 6050 50  0001 C CNN
+	1    3400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 5FF5C1AE
+P 4000 2450
+F 0 "J2" V 3964 2162 50  0000 R CNN
+F 1 "Conn_01x05" V 3873 2162 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 4000 2450 50  0001 C CNN
+F 3 "~" H 4000 2450 50  0001 C CNN
+	1    4000 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FF5D91B
+P 5500 4800
+F 0 "H1" H 5600 4846 50  0000 L CNN
+F 1 "MountingHole" H 5600 4755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5500 4800 50  0001 C CNN
+F 3 "~" H 5500 4800 50  0001 C CNN
+	1    5500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FF5E1DF
+P 5500 5000
+F 0 "H2" H 5600 5046 50  0000 L CNN
+F 1 "MountingHole" H 5600 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5500 5000 50  0001 C CNN
+F 3 "~" H 5500 5000 50  0001 C CNN
+	1    5500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FF5E345
+P 5500 5200
+F 0 "H3" H 5600 5246 50  0000 L CNN
+F 1 "MountingHole" H 5600 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5500 5200 50  0001 C CNN
+F 3 "~" H 5500 5200 50  0001 C CNN
+	1    5500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FF5E48C
+P 5500 5400
+F 0 "H4" H 5600 5446 50  0000 L CNN
+F 1 "MountingHole" H 5600 5355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5500 5400 50  0001 C CNN
+F 3 "~" H 5500 5400 50  0001 C CNN
+	1    5500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5FF60B59
+P 3900 5800
+F 0 "TP1" H 3958 5918 50  0000 L CNN
+F 1 "TestPoint" H 3958 5827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 4100 5800 50  0001 C CNN
+F 3 "~" H 4100 5800 50  0001 C CNN
+	1    3900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5FF60DBE
+P 4150 5700
+F 0 "TP2" H 4208 5818 50  0000 L CNN
+F 1 "TestPoint" H 4208 5727 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 4350 5700 50  0001 C CNN
+F 3 "~" H 4350 5700 50  0001 C CNN
+	1    4150 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5FF6100C
+P 4400 5600
+F 0 "TP3" H 4458 5718 50  0000 L CNN
+F 1 "TestPoint" H 4458 5627 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 4600 5600 50  0001 C CNN
+F 3 "~" H 4600 5600 50  0001 C CNN
+	1    4400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5FF61213
+P 4650 5500
+F 0 "TP4" H 4708 5618 50  0000 L CNN
+F 1 "TestPoint" H 4708 5527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 4850 5500 50  0001 C CNN
+F 3 "~" H 4850 5500 50  0001 C CNN
+	1    4650 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5900 3900 5900
+Wire Wire Line
+	3900 5900 3900 5800
+Wire Wire Line
+	3700 6100 4150 6100
+Wire Wire Line
+	4150 6100 4150 5700
+Wire Wire Line
+	3700 6200 4400 6200
+Wire Wire Line
+	4400 6200 4400 5600
+Wire Wire Line
+	3400 6500 3400 6550
+Wire Wire Line
+	3400 6550 4650 6550
+Wire Wire Line
+	4650 6550 4650 5500
+$Comp
+L power:GND #PWR0101
+U 1 1 5FF63686
+P 4250 4000
+F 0 "#PWR0101" H 4250 3750 50  0001 C CNN
+F 1 "GND" H 4255 3827 50  0000 C CNN
+F 2 "" H 4250 4000 50  0001 C CNN
+F 3 "" H 4250 4000 50  0001 C CNN
+	1    4250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5FF65715
+P 3650 3400
+F 0 "#PWR0102" H 3650 3150 50  0001 C CNN
+F 1 "GND" H 3655 3227 50  0000 C CNN
+F 2 "" H 3650 3400 50  0001 C CNN
+F 3 "" H 3650 3400 50  0001 C CNN
+	1    3650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3400 3650 3300
+Wire Wire Line
+	3650 3300 3750 3300
+Wire Wire Line
+	4250 4000 4250 3900
+Wire Wire Line
+	4150 3900 4250 3900
+Connection ~ 4250 3900
+Wire Wire Line
+	4250 3900 4250 3800
+$Comp
+L power:GND #PWR0103
+U 1 1 5FF66105
+P 3800 2750
+F 0 "#PWR0103" H 3800 2500 50  0001 C CNN
+F 1 "GND" H 3650 2700 50  0000 C CNN
+F 2 "" H 3800 2750 50  0001 C CNN
+F 3 "" H 3800 2750 50  0001 C CNN
+	1    3800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR0104
+U 1 1 5FF66493
+P 4250 3200
+F 0 "#PWR0104" H 4250 3050 50  0001 C CNN
+F 1 "+5VA" H 4265 3373 50  0000 C CNN
+F 2 "" H 4250 3200 50  0001 C CNN
+F 3 "" H 4250 3200 50  0001 C CNN
+	1    4250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR0105
+U 1 1 5FF67DB5
+P 3900 2750
+F 0 "#PWR0105" H 3900 2600 50  0001 C CNN
+F 1 "+5VA" H 3915 2923 50  0000 C CNN
+F 2 "" H 3900 2750 50  0001 C CNN
+F 3 "" H 3900 2750 50  0001 C CNN
+	1    3900 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2650 3800 2750
+Wire Wire Line
+	3900 2650 3900 2750
+Wire Wire Line
+	4250 3400 4250 3300
+Wire Wire Line
+	4150 3300 4250 3300
+Connection ~ 4250 3300
+Wire Wire Line
+	4250 3300 4250 3200
+Wire Wire Line
+	3950 3000 4000 3000
+Wire Wire Line
+	4000 3000 4000 2650
+Wire Wire Line
+	3950 3000 3950 3150
+Wire Wire Line
+	4400 3600 4450 3600
+Wire Wire Line
+	4450 3600 4450 2950
+Wire Wire Line
+	4450 2950 4100 2950
+Wire Wire Line
+	4100 2950 4100 2650
+Wire Wire Line
+	3750 3900 3700 3900
+Wire Wire Line
+	3700 3900 3700 4250
+Wire Wire Line
+	3700 4250 4550 4250
+Wire Wire Line
+	4550 4250 4550 2850
+Wire Wire Line
+	4550 2850 4200 2850
+Wire Wire Line
+	4200 2850 4200 2650
+$EndSCHEMATC
