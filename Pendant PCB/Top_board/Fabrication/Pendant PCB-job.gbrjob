@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.9-1.fc33"
     },
-    "CreationDate":  "2021-01-07T16:59:53+01:00"
+    "CreationDate":  "2021-01-14T18:53:31+01:00"
   },
   "GeneralSpecs":
   {
@@ -50,6 +50,26 @@
       "FilePolarity":  "Positive"
     },
     {
+      "Path":  "Pendant PCB-F_SilkS.gbr",
+      "FileFunction":  "Legend,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "Pendant PCB-B_SilkS.gbr",
+      "FileFunction":  "Legend,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "Pendant PCB-F_Mask.gbr",
+      "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "Pendant PCB-B_Mask.gbr",
+      "FileFunction":  "SolderMask,Bot",
+      "FilePolarity":  "Negative"
+    },
+    {
       "Path":  "Pendant PCB-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
@@ -57,6 +77,14 @@
   ],
   "MaterialStackup":
   [
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer F.Mask"
+    },
     {
       "Type":  "Copper",
       "Notes":  "Layer F.Cu"
@@ -69,6 +97,14 @@
     {
       "Type":  "Copper",
       "Notes":  "Layer B.Cu"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer B.SilkS"
     }
   ]
 }

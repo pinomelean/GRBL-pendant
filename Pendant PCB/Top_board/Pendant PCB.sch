@@ -950,15 +950,15 @@ F 3 "" H 3600 2350 50  0001 C CNN
 	1    3600 2350
 	0    1    1    0   
 $EndComp
-Text Label 3350 2450 0    50   ~ 0
-J_X
 Text Label 3350 2150 0    50   ~ 0
+J_X
+Text Label 3350 2450 0    50   ~ 0
 J_Y
 Text Label 3350 2050 0    50   ~ 0
 J_SW
-Text Label 9400 3650 0    50   ~ 0
-J_X
 Text Label 9400 3850 0    50   ~ 0
+J_X
+Text Label 9400 3650 0    50   ~ 0
 J_Y
 Text Label 3550 6250 0    50   ~ 0
 PY+
