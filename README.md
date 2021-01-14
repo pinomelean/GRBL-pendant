@@ -6,7 +6,7 @@ Hardware pendant intended for use with G-code senders for GRBL machines
 This USB pendant Includes many buttons, encoder and a thumbstick that can be mapped to the most common functions and G-code commands you need to use your machine.
 It uses a Teensy++ 2 because of its physical size, IO, native USB, and ease of programming with the Arduino ecosystem, *as limited as it is*.
 
-<img src="images/Concept.png">
+![Initial oncept drawing](/Concept.png)
 
 ## Pendant layout
 The Thumbstick can be used either as a mouse pointer, along with a couple of buttons for clicking, or to quickly jog the machine when pressed in.
@@ -38,9 +38,9 @@ The other 4 buttons remain free for now, until I can think of useful G-code macr
 - Encoder jogging - Works well for accurate positioning. Too slow for jogging all around the machine, but there's the thumbstick for that.
 - Rest of the buttons - not yet done.
 
-<img src="images/Status1.png">
+<img src="/Status1.png">
 
-<img src="images/Status2.png">
+<img src="/Status2.png">
 
 ### Notes
 When I started designing this pendant I wanted to use the Takachi WH145-25-N-B enclosure, as I had seen one of them at work before and it was an excellent enclosure with rubber sides for protection and felt high quality in every way.
