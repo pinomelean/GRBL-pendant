@@ -1,0 +1,8 @@
+
+*.dxf~
+
+*.FCStd1
+
+*.kicad_pcb-bak
+
+*.sch-bak

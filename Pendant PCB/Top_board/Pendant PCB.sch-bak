@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_01x20 J2
-U 1 1 5FE26F26
-P 9150 3450
-F 0 "J2" H 9068 2225 50  0000 C CNN
-F 1 "Conn_01x20" H 9068 2316 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 9150 3450 50  0001 C CNN
-F 3 "~" H 9150 3450 50  0001 C CNN
-	1    9150 3450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8100 3950 7800 3950
 Wire Wire Line
@@ -82,21 +71,8 @@ Text Label 7000 2650 0    50   ~ 0
 0
 Text Label 7150 2450 0    50   ~ 0
 GND
-$Comp
-L Connector_Generic:Conn_01x20 J1
-U 1 1 5FE10107
-P 7550 3350
-F 0 "J1" H 7630 3342 50  0000 L CNN
-F 1 "Conn_01x20" H 7630 3251 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 7550 3350 50  0001 C CNN
-F 3 "~" H 7550 3350 50  0001 C CNN
-	1    7550 3350
-	1    0    0    -1  
-$EndComp
 Text Label 7000 2550 0    50   ~ 0
 27
-Text Label 9500 2450 0    50   ~ 0
-+5V
 Text Label 9600 2550 0    50   ~ 0
 26
 Text Label 9600 2650 0    50   ~ 0
@@ -122,9 +98,9 @@ REF
 Text Label 9600 3650 0    50   ~ 0
 A0
 Text Label 9600 3750 0    50   ~ 0
-39
+A1
 Text Label 9600 3850 0    50   ~ 0
-A2
+40
 Text Label 9600 3950 0    50   ~ 0
 41
 Text Label 9600 4050 0    50   ~ 0
@@ -354,17 +330,6 @@ F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3250 6950 50  0001 C CNN
 F 3 "~" H 3250 6950 50  0001 C CNN
 	1    3250 6750
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0101
-U 1 1 5FE8D812
-P 9700 2450
-F 0 "#PWR0101" H 9700 2300 50  0001 C CNN
-F 1 "+5V" V 9715 2578 50  0000 L CNN
-F 2 "" H 9700 2450 50  0001 C CNN
-F 3 "" H 9700 2450 50  0001 C CNN
-	1    9700 2450
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0102
@@ -950,15 +915,15 @@ F 3 "" H 3600 2350 50  0001 C CNN
 	1    3600 2350
 	0    1    1    0   
 $EndComp
-Text Label 3350 2450 0    50   ~ 0
-J_X
 Text Label 3350 2150 0    50   ~ 0
+J_X
+Text Label 3350 2450 0    50   ~ 0
 J_Y
 Text Label 3350 2050 0    50   ~ 0
 J_SW
-Text Label 9400 3650 0    50   ~ 0
+Text Label 9400 3750 0    50   ~ 0
 J_X
-Text Label 9400 3850 0    50   ~ 0
+Text Label 9400 3650 0    50   ~ 0
 J_Y
 Text Label 3550 6250 0    50   ~ 0
 PY+
@@ -1146,7 +1111,7 @@ Text Label 8600 3850 0    50   ~ 0
 PY+
 Text Label 7100 3450 0    50   ~ 0
 SW_F
-Text Label 9350 3750 0    50   ~ 0
+Text Label 9400 3850 0    50   ~ 0
 SW_S
 Text Label 7150 3350 0    50   ~ 0
 HY
@@ -1345,8 +1310,6 @@ M4
 Text Label 7950 3850 0    50   ~ 0
 M2
 Wire Wire Line
-	9350 2450 9700 2450
-Wire Wire Line
 	9350 2550 9700 2550
 Wire Wire Line
 	9350 2650 9700 2650
@@ -1444,4 +1407,73 @@ Text Label 9400 4150 0    50   ~ 0
 SR
 Text Label 9350 4250 0    50   ~ 0
 SW_Z
+$Comp
+L Connector_Generic:Conn_01x18 J2
+U 1 1 600B2AC1
+P 9150 3450
+F 0 "J2" H 9068 2325 50  0000 C CNN
+F 1 "Conn_01x18" H 9068 2416 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 9150 3450 50  0001 C CNN
+F 3 "~" H 9150 3450 50  0001 C CNN
+	1    9150 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9350 2450 9700 2450
+Text Label 9500 2450 0    50   ~ 0
++5V
+$Comp
+L Connector_Generic:Conn_01x19 J1
+U 1 1 600D8C9C
+P 7550 3450
+F 0 "J1" H 7630 3492 50  0000 L CNN
+F 1 "Conn_01x19" H 7630 3401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x19_P2.54mm_Vertical" H 7550 3450 50  0001 C CNN
+F 3 "~" H 7550 3450 50  0001 C CNN
+	1    7550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 600EB616
+P 8400 4300
+F 0 "J6" H 8318 4075 50  0000 C CNN
+F 1 "Conn_01x01" H 8318 4166 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8400 4300 50  0001 C CNN
+F 3 "~" H 8400 4300 50  0001 C CNN
+	1    8400 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW_RST2
+U 1 1 600FABF4
+P 8400 4750
+F 0 "SW_RST2" H 8400 5035 50  0000 C CNN
+F 1 "SW_Push" H 8400 4944 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS" H 8400 4950 50  0001 C CNN
+F 3 "~" H 8400 4950 50  0001 C CNN
+	1    8400 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 4300 8900 4300
+Wire Wire Line
+	8900 4300 8900 4750
+Text Label 8700 4300 0    50   ~ 0
+RS
+$Comp
+L power:GND #PWR0101
+U 1 1 6011177F
+P 8100 4750
+F 0 "#PWR0101" H 8100 4500 50  0001 C CNN
+F 1 "GND" V 8105 4622 50  0000 R CNN
+F 2 "" H 8100 4750 50  0001 C CNN
+F 3 "" H 8100 4750 50  0001 C CNN
+	1    8100 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 4750 8900 4750
+Wire Wire Line
+	8200 4750 8100 4750
 $EndSCHEMATC

@@ -251,7 +251,7 @@ U 1 1 5FF60B59
 P 3900 5800
 F 0 "VBUS1" H 3958 5918 50  0000 L CNN
 F 1 "TestPoint" H 3958 5827 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 4100 5800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 4100 5800 50  0001 C CNN
 F 3 "~" H 4100 5800 50  0001 C CNN
 	1    3900 5800
 	1    0    0    -1  
@@ -262,7 +262,7 @@ U 1 1 5FF60DBE
 P 4150 5700
 F 0 "D+1" H 4208 5818 50  0000 L CNN
 F 1 "TestPoint" H 4208 5727 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 4350 5700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 4350 5700 50  0001 C CNN
 F 3 "~" H 4350 5700 50  0001 C CNN
 	1    4150 5700
 	1    0    0    -1  
@@ -273,7 +273,7 @@ U 1 1 5FF6100C
 P 4400 5600
 F 0 "D-1" H 4458 5718 50  0000 L CNN
 F 1 "TestPoint" H 4458 5627 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 4600 5600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 4600 5600 50  0001 C CNN
 F 3 "~" H 4600 5600 50  0001 C CNN
 	1    4400 5600
 	1    0    0    -1  
@@ -284,7 +284,7 @@ U 1 1 5FF61213
 P 4650 5500
 F 0 "GND1" H 4708 5618 50  0000 L CNN
 F 1 "TestPoint" H 4708 5527 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 4850 5500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 4850 5500 50  0001 C CNN
 F 3 "~" H 4850 5500 50  0001 C CNN
 	1    4650 5500
 	1    0    0    -1  
