@@ -22,7 +22,7 @@ The PCBs are designed in KiCad and made to be simple enough to be milled at home
 
 <img src="/Pictures/KiCad.png" alt="KiCad" width="800"/>
 
-To mill the PCBs I used, and would recommend, [Juan Pablo Caram](https://github.com/jpcaram)'s [FlatCAM](www.flatcam.org) and [Martin Pittermann](https://github.com/martin2250)'s [OpenCNCPilot](https://github.com/martin2250/OpenCNCPilot)
+To mill the PCBs I used, and would recommend, [Juan Pablo Caram](https://github.com/jpcaram)'s [FlatCAM](https://www.flatcam.org/) and [Martin Pittermann](https://github.com/martin2250)'s [OpenCNCPilot](https://github.com/martin2250/OpenCNCPilot)
 
 FreeCAD is used to design the silicone keypad and the mould to cast it, which can then be milled using toolpaths generated in the path workbench.
 
