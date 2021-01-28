@@ -22,7 +22,7 @@ The PCBs are designed in KiCad and made to be simple enough to be milled at home
 
 <img src="/Pictures/KiCad.png" alt="KiCad" width="800"/>
 
-To mill the PCBs I used, and would recommend, [Juan Pablo Caram](https://github.com/jpcaram)'s [FlatCAM](https://www.flatcam.org/) and [Martin Pittermann](https://github.com/martin2250)'s [OpenCNCPilot](https://github.com/martin2250/OpenCNCPilot)
+To mill the PCBs I used, and would recommend, [Juan Pablo Caram](https://github.com/jpcaram)'s [FlatCAM](http://www.flatcam.org/) and [Martin Pittermann](https://github.com/martin2250)'s [OpenCNCPilot](https://github.com/martin2250/OpenCNCPilot)
 
 FreeCAD is used to design the silicone keypad and the mould to cast it, which can then be milled using toolpaths generated in the path workbench.
 
@@ -55,6 +55,7 @@ The other 4 buttons remain free for now, until I can think of useful G-code macr
 ## Project status
 - First prototype mostly built, silicone keypad left to see how it all looks and feels. A couple of encoder push buttons don't work, but will do for testing.
 	- Several adjustments made for a second version. Will not make a mold and keypad for the first.
+	- Started making a mold for the keypad.
 - Thumbstick as mouse pointer - Done. Works pretty well in the smaller screens I use, slower in bigger ones, but it's adjustable.
 - Thumbstick for jogging - UGS wouldn't recognize it in game controller mode, so It just types jogging G-code commands. Works ok.
 - Encoder jogging - Works well for accurate positioning. Too slow for jogging all around the machine, but there's the thumbstick for that.
