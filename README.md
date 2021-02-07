@@ -6,7 +6,7 @@ Hardware pendant intended for use with G-code senders for GRBL machines
 The aim of this project is to produce a physical controller which functions similarly to a machine pendant, but is not limited to only that. The device would allow the user to interact with both the computer and the CNC machine without needing to reach for the mouse and keyboard for the most machining tasks.
 The hardware is not limited to a single purpose, though, as the firmware can be easily changed so the controller can suit the needs of the user, and be adapted for their particular workflow.
 
-<img src="/Pictures/Concept.png" alt="Initial concept drawing" width="300"/>   <img src="/Pictures/Build10.png" width="500"/>
+<img src="/Pictures/Concept.png" alt="Initial concept drawing" width="300"/> 	 <img height="350" hspace="20"/> <img src="/Pictures/Build10.png" width="410"/>
 
 This USB pendant Includes many buttons, encoders and a thumbstick that can be configured with the most common functions and G-code commands you need to use your machine.
 It uses a Teensy++ 2 because of its physical size, IO, native USB, and ease of programming with the Arduino ecosystem, *as limited as it is*.
