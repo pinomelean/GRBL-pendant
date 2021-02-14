@@ -3,7 +3,7 @@
 #include "Math.h"
 
 const int stickButton=25; //Thumbstick inputs
-const int xAxis=A2;
+const int xAxis=A1;
 const int yAxis=A0;
 const int clickL=11; //Mouse buttons
 const int clickR=10;
