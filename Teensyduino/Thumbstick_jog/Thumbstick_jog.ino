@@ -2,7 +2,7 @@
 
 //Thumbstick inputs
 const int stickButton=25;
-const int xAxis=A2;
+const int xAxis=A1;
 const int yAxis=A0;
 int xoff,yoff; //Startup position offset
 bool jogging;
