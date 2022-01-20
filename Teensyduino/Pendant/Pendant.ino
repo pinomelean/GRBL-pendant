@@ -1,8 +1,53 @@
+
+/*  PENDANT LAYOUT WITH PIN CONNECTIONS
+      ________________________________
+    /   ______     ______     ______   \
+   /   |      |   |      |   |      |   \
+  /    |   9  |   |  24  |   |  23  |    \
+ |     |______|   |______|   |______|     |
+ |   ________                  ________   |
+ |  |        |    ________    |        |  |
+ |  |  11   /   /          \   \   22  |  |
+ |  |_____ /   |         >  |   \ _____|  |
+ |   _____     |     25  A1 |     _____   |
+ |  |      \   |   v A0     |   /      |  |
+ |  |  10   \   \ ________ /   /   42  |  |
+ |  |________|                |________|  |
+ |      ____        ____        ____      |
+ |    /  12  \    /  26  \    /  44  \    |
+ |   (  2  1  )  (  0 27  )  ( 19  20 )   |
+ |    \ ____ /    \_____ /    \ ____ /    |
+ |     ______      ______      ______     |
+ |    |  5   |    |  7   |    |  21  |    |
+ |    |______|    |______|    |______|    |
+ |   ___      ____        ____      ___   |
+ |  |   |   /  8   \    /  40  \   |   |  |
+ |  | 6 |  (  3  4  )  ( 18  41 )  | 41|  |
+ |  |___|   \ ____ /    \ ____ /   |___|  |
+ |     ______        __        ______     |
+ |    |      |     / 29 \     |      |    |
+ |    | 13  /     ( ____ )     \  33 |    |
+ |    |___ /   __   ____   __   \ ___|    |
+ |           /   | |    | |   \           |
+ |          ( 15 | | 32 | | 28 )          |
+ |     ___   \ __| |____| |__ /   ___     |
+ |    |    \        ____        /    |    |
+  \   | 14  \     (  17  )     /  16 |   /
+   \  |______|     \ __ /     |______|  /
+    \ ________________________________ /
+
+ 25 - thumbstick push button
+ A1, and A0 - thumbstick axes
+ 12, 26, 44, 8, and 40 - encoder push buttons
+ 2, 1; 0, 27; 19, 20; 3, 4; and 18, 41; - encoder quadrature outputs
+*/
+ 
 #include <Keyboard.h>
 #include <Encoder.h>
 #include <Mouse.h>
-#include <Math.h>
+#include <math.h>
 #include <Button.h> //Change the debouncing delay to 100ms or fewer
+
 
 //Thumbstick
 Button stickButton=25; //Thumbstick inputs
@@ -25,6 +70,7 @@ Encoder zEnc(19,20);
 Button zButton=44;
 bool enc[3]={0,0,0}; //Flag vector to chech for encoder rotation
  
+
 void setup() {
   //Thumbstick setup
   stickButton.begin();
